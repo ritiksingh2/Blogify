@@ -1,3 +1,3 @@
 module.exports = {
-  MONGOURI: process.env.MOGOURI,
+  MONGOURI: process.env.MONGOURI,
 };
