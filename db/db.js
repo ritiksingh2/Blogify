@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const MONGOURI = require("./config/keys");
 mongoose.Promise = global.Promise;
 
-const url = { MONGOURI };
+const url = MONGOURI;
 // Connect MongoDB at default port 27017.
 let mong = mongoose.connect(
   url,
