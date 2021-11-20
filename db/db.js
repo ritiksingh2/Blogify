@@ -1,9 +1,8 @@
 const mongoose = require("mongoose");
-
+const MONGOURI = require("./config/keys");
 mongoose.Promise = global.Promise;
 
-const url =
-  "mongodb+srv://ritik:Ritik@cluster0.lpwvx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url = { MONGOURI };
 // Connect MongoDB at default port 27017.
 let mong = mongoose.connect(
   url,
