@@ -1,4 +1,5 @@
-# Blogify -myways
+# Blogify 
+
 This is a blogging website created by react as frontend and node js express and mongo as backend 
 
 It  has login option and stores the blog of users and also shows all other blogs on the home screen 
